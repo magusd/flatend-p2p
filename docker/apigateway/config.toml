@@ -1,0 +1,17 @@
+addr = "0.0.0.0:9000"
+
+[[http]]
+addr = "0.0.0.0:3000"
+
+[[http.routes]]
+path = "GET /hello"
+service = "hello_world"
+[[http.routes]]
+path = "GET /ola"
+service = "ola"
+[[http.routes]]
+path = "GET /alor"
+service = "alor"
+[[http.routes]]
+path = "GET /world"
+service = "world"

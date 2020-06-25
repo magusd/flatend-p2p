@@ -1,0 +1,8 @@
+FROM alpine
+
+WORKDIR /app
+COPY . .
+EXPOSE 3000
+EXPOSE 9000
+
+CMD ./flatend

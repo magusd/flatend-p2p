@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  apigateway:
+    build: 
+      context: ./docker/apigateway
+    ports:
+      - 3000:3000
+      - 9000:9000
+
